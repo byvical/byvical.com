@@ -1,0 +1,350 @@
+/*************** Reset *********************/
+
+/* GRUNDREGLER FOR STØRRELSE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+footer {
+  padding: 2rem;
+  background-color: #f7f7f2;
+}
+
+/* BAGGRUNDSFARVE  */
+.main_projekter {
+  background-color: #f7f7f2;
+}
+.omos {
+  background-color: #f7f7f2;
+}
+.main_kontakt {
+  background-color: #f7f7f2;
+}
+
+/* 
+ FONT 
+ARCHIVO BLACK REGULAR & ARCHIVO
+Denne har jeg fremfundet i google font, 
+og indlagt via "embeed code". Herved også linket til den i HEAD */
+
+.archivo-black-regular {
+  font-family: "Archivo Black";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.archivo-narrow-tekst {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* FORSIDE
+FONT TIL H1 & H2 & a i nav box */
+
+.forside_titel {
+  font-family: "Archivo Black";
+  font-weight: 100;
+  font-style: normal;
+  font-size: 9rem;
+  text-align: center;
+  color: rgb(250, 250, 250);
+}
+.main_forside h2 {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
+  font-variation-settings: "wdth" 100;
+}
+
+.forside_nav a {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 400;
+  font-size: 850%;
+  text-align: center;
+  color: rgb(251, 251, 251);
+}
+
+/* FORSIDE
+BAGGRUNDSBILLEDE TIL I MOBIL SITE */
+body {
+  background-image: url("billeder/image.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* TEKST + IMG I "OM OS" (font + margin) */
+
+.omos_tekst_1 {
+  font-family: "Archivo Narrow", sans-serif;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #000000;
+}
+.omos_tekst_2 {
+  color: #000000;
+  font-family: "Archivo Narrow", sans-serif;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titel_omos {
+  font-family: "Archivo Black";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  color: #000000;
+}
+.omos_billede {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* TEKST OG IMG I "PROJEKTER" */
+
+.årstal {
+  font-family: "Archivo Black";
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: normal;
+  color: #000000;
+}
+
+.kunstner {
+  font-family: "Archivo Narrow", sans-serif;
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 2rem;
+  color: #000000;
+}
+
+.numre {
+  font-family: "Archivo Narrow", sans-serif;
+  text-align: left;
+  padding-inline: 8rem;
+  font-size: 16px;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+  color: #000000;
+}
+
+ul {
+  list-style-type: none; /* for at fjerne punkter */
+  padding-left: 0; /* for at fjerne indrykning */
+  color: #000000;
+}
+
+.album1 {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.album-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+
+/* KNAP "LYT HER" */
+
+.lyt_her {
+  width: auto;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Archivo", sans-serif;
+  padding: 12px 92px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #a4a4a4;
+}
+
+/* BOKS MED CREDITS */
+
+.grid_1_1 {
+  background-color: rgba(0, 0, 0, 0.119);
+  padding-inline: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.grid_1_1 h2 {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 900;
+  padding-top: 1rem;
+  font-size: small;
+  color: #000000;
+}
+.grid_1_1 p {
+  font-family: "Archivo Narrow", sans-serif;
+  padding-top: 1rem;
+  font-size: smaller;
+  color: #000000;
+}
+
+/* KONTAKT TEKST OG BILLEDER */
+
+.titel_kontakt {
+  font-family: "Archivo Black";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  color: #000000;
+}
+
+.undertitel_kontakt h2 {
+  font-family: "Archivo Black";
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 1rem;
+  color: #000000;
+}
+
+.main_kontakt h2 {
+  font-size: 15px;
+  font-family: "Archivo Narrow", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+  color: #000000;
+}
+.main_kontakt p {
+  font-size: 10px;
+  font-family: "Archivo Narrow", sans-serif;
+  text-align: center;
+  color: #000000;
+}
+.titel_some {
+  font-family: "Archivo Black";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 3rem;
+  color: #000000;
+}
+
+.main_kontakt img {
+  padding: 2rem;
+}
+
+/* START NAV BAR FORSIDE */
+
+.navbar-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  text-align: center;
+}
+
+.navbar-center a {
+  display: block;
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.logo {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+}
+
+.undertitel {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: xx-small;
+  color: white;
+}
+
+/* NAV BAR UNDERSIDER */
+
+.header_undersider {
+  display: flex;
+  align-items: stretch;
+  padding: 5px;
+  background-color: #f7f7f2;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: start;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f2;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 7px;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+.forside_gap {
+  padding-right: 7rem;
+}
+
+.header_desktop {
+  display: none;
+}
