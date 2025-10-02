@@ -1,0 +1,167 @@
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* COMPUTER FORMAT */
+
+@media (min-width: 800px) {
+  /* FORSIDE TEKST*/
+  .forside_titel {
+    font-size: 20rem;
+    position: static;
+    /* padding-top: -60px; */
+  }
+
+  .main_forside h2 {
+    padding-top: 0rem;
+    font-size: 2rem;
+    color: #ffffff;
+    padding-left: 39rem;
+  }
+
+  /* FORSIDE NAV */
+
+  .header_desktop {
+    display: flex;
+    align-items: stretch;
+    padding: 5px;
+    justify-content: space-between;
+  }
+
+  .desktop {
+    display: flex;
+    align-items: start;
+  }
+
+  .menu_desktop {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li:last-child {
+    margin-right: 0;
+  }
+
+  .menu_desktop a {
+    display: block;
+    padding: 20px;
+    color: #fffcfc;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: "Archivo Narrow", sans-serif;
+    font-weight: bold;
+    padding-left: 2rem;
+  }
+
+  .menu_desktop a:hover {
+    color: #050505;
+  }
+
+  .forside_gap {
+    padding-right: 60rem;
+  }
+
+  .forside_nav {
+    display: none;
+  }
+
+  /* UNDERSIDER NAV */
+
+  .header_undersider {
+    display: flex;
+    align-items: stretch;
+    padding: 5px;
+    justify-content: space-between;
+  }
+
+  nav {
+    display: flex;
+    align-items: start;
+  }
+
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f2;
+  }
+
+  .menu li:last-child {
+    margin-right: 0;
+  }
+
+  .menu a {
+    display: block;
+    padding: 20px;
+    color: #070707;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: "Archivo Narrow", sans-serif;
+    font-weight: bold;
+    padding-left: 2rem;
+  }
+
+  .menu a:hover {
+    color: #ffffff;
+  }
+
+  .forside_gap {
+    padding-right: 60rem;
+  }
+
+  /* FORSIDE BILLEDE  + tekst */
+
+  body {
+    background-image: url("billeder/imagedesktop.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: #05050524;
+  }
+
+  /* PROJEKTER  */
+
+  .grid_1-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+
+  .spanx1 {
+    grid-column: 1/2;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .kunstner {
+    padding-top: 0rem;
+  }
+
+  .numre {
+    padding-inline: 8rem;
+    font-size: 16px;
+    line-height: 2rem;
+    padding-top: 3rem;
+  }
+
+  .lyt_her {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .album1 {
+    padding-top: 1rem;
+  }
+
+  /* KONTAKT  */
+  .ig_billede {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
